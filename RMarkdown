@@ -1,0 +1,33 @@
+title: "Patient MRI Data"
+author: "Ayesha Amjad"
+output: word_document
+
+----
+
+## Patient MRI Table
+
+```{r}
+# Load the necessary package
+library(knitr)
+Create a data frame with the provided data
+df <- data.frame(
+  Patients = c("Patient 1", "Patient 2", "Patient 3", "Patient 4", "Patient 5", 
+               "Patient 6", "Patient 7", "Patient 8", "Patient 9", "Patient 10",
+               "Patient 11", "Patient 12", "Patient 13", "Patient 14", "Patient 15", 
+               "Patient 16", "Patient 17", "Patient 18", "Patient 19", "Patient 20"),
+  MRI = c("ON and laptomeningeal enhancement", "ON and fat enhancement", 
+          "ON enhancement and OD", "ON enhancement and OD", 
+          "ON enlargement and enhancement", "Negative findings", 
+          "ON enlargement and enhancement", 
+          "Cavernous sinus mass and enhancement and parietal lobe lesion", 
+          "Negative findings", "ON enhancement", "Negative findings", 
+          "no MRI", "ON enhancement", "Optic chiasm enhancement", 
+          "Parasagittal enhancement (enlargement of ON at presentation)", 
+          "right Frontal lobe mass, left Cerebello-pontine angle mass", 
+          "ON enhancement", "Spinal enhancement, Posterior Fossa enhancement", 
+          "Posterior upper optic radiation enhancement", 
+          "Orbital enhancement, OD")
+)
+
+# Print the table
+kable(df, col.names = c("Patients", "MRI"), align = 'l')
