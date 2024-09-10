@@ -1,9 +1,32 @@
-title: "Patient MRI Data"
+title: "Patient MRI & CSF Data"
 author: "Ayesha Amjad"
 output: word_document
 
 ----
+# Heading 1 Treatment of Corticosteroid-Resistant Neurosarcoidosis With a Short-Course Cyclophosphamide Regimen
+# # Heading 2 John D. Doty, MD; Joseph E. Mazur, PharmD; and Marc A. Judson, MD, FCCP
+## MRI Findings
 
+- **4 patients** had MRI with meningeal or brainstem enhancement.
+- **1 patient** had an abnormal MRI signal from T1 to T6 in the spinal cord.
+- **1 patient** had an abnormal MRI signal throughout the cervical spine.
+- In total, **6 patients** had abnormal MRI findings.
+
+## CSF Findings
+
+| Patient | WBC (cells/µL) | Lymphocytes (%) | Protein (mg/dL) |
+|---------|----------------|-----------------|-----------------|
+| 1       | 111            | 81%             | 102             |
+| 2       | 6              | 99%             | 160             |
+| 5       | 26             | 83%             | 231             |
+| 6       | 8              | 69%             | 184             |
+
+In total, **4 patients** had abnormal CSF findings.
+
+
+
+# Heading 1 Neurosarcoidosis Clinical description of 7 cases with a proposal for a new diagnostic strategy
+## Heading 2 2 Sabrina Marangoni Vincenza Argentiero Bruno Tavolato
 ## Patient CSF Findings Table
 
 ```{r}
