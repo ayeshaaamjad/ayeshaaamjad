@@ -29,5 +29,16 @@ df <- data.frame(
           "Orbital enhancement, OD")
 )
 
-# Print the table
+# Print the table of 4 columns
 kable(df, col.names = c("Patients", "MRI"), align = 'l')
+
+# Create the data frame
+patient_data <- data.frame(
+  patient = c(1, 2, 3, 4, 5, 6, 7),
+  lymphocytes_cells_per_mm3 = c(105, 4, 11, 5, 90, 31, 200),
+  glucose_g_per_l = c(0.11, NA, NA, NA, 0.31, NA, NA),
+  protein_mg_per_dl = c(2240, 1228, 484, NA, 260, NA, 99)
+)
+
+# View the table
+print(patient_data)
